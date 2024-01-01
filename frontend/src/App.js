@@ -1,5 +1,6 @@
 
 import './App.css';
+import './index.css';
 import AvailableTimeSlot from './Components/AvailableTimeSlot';
 import BookTimeSlot from './Components/BookTimeSlot';
 import BookedAppointments from './Components/BookedAppointments';
@@ -11,9 +12,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div >
-      <h1>Hello World</h1>
-
-
+    
       {/* Define Routes */}
       <Routes>
         <Route path="/" element={<Home />} />

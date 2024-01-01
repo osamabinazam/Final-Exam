@@ -4,6 +4,7 @@ const connectDB = require('../db/connection');
 require('dotenv').config();
 
 // Import routes
+
 const indexRoutes = require('../routes/index');
 const timeslotRoutes = require('../routes/timeslot');
 const appointmentRoutes = require('../routes/appointments');
